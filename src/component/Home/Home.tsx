@@ -13,7 +13,6 @@ export default function Home() {
 
       <div className="flex w-1/2 px-20">
         <Btn />
-        
       </div>
     </div>
   );
