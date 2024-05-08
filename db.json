@@ -1,0 +1,15 @@
+{
+  "tasks": [
+    { "id": "1", "title": "task 1", "priority": "High" },
+    { "id": "2", "title": "task 2", "priority": "Medium" },
+    { "id": "3", "title": "task 3", "priority": "Low" },
+    { "id": "4", "title": "task 4", "priority": "High" }
+  ],
+  "comments": [
+    { "id": "1", "text": "a comment about post 1", "postId": "1" },
+    { "id": "2", "text": "another comment about post 1", "postId": "1" }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
