@@ -7,12 +7,10 @@ type Props = {
 };
 export default function Layout({ children }: Props) {
   return (
-    <div>
-      <div>
-        <Header />
-        {children}
-        <Footer />
-      </div>
+    <div className="flex flex-col gap-3">
+      <Header />
+      {children}
+      <Footer />
     </div>
   );
 }
