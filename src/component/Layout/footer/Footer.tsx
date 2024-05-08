@@ -1,12 +1,12 @@
 export default function Footer() {
   return (
-    <footer className="flex justify-between mx-14 mt-4 mb-3">
+    <footer className="flex justify-between items-center gap-2  py-3 w-80 mx-auto">
       <h3 className="text-gray-400 font-sans text-sm font-medium">Task name</h3>
-      <div className="flex w-1/2">
+      <div className="flex justify-end items-center">
         <select
           name="Select"
           id="SelectPrirityy"
-          className="w-1/6 border-none font-medium"
+          className=" border-none font-medium"
         >
           <option value="High">High</option>
           <option value="Mediun">Mediun</option>
